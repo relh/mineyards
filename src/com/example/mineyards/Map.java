@@ -19,7 +19,7 @@ public class Map extends MapActivity {
 	    
 	    List<Overlay> mapOverlays = mapView.getOverlays();
 	    Drawable drawable = this.getResources().getDrawable(R.drawable.ic_launcher);
-	    AddItems itemizedoverlay = new AddItems(drawable, this);
+	    AddItem itemizedoverlay = new AddItem(drawable, this);
 	    
 	    GeoPoint point = new GeoPoint(19240000,-99120000);
 	    OverlayItem overlayitem = new OverlayItem(point, "Hola, Mundo!", "I'm in Mexico City!");
